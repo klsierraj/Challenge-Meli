@@ -1,0 +1,14 @@
+.section {
+ display: grid;
+ grid-template-columns: 20% 80%;
+ align-items: center;
+ a {
+  text-decoration: none;  
+ }
+
+ @media (max-width: 768px)  {
+   display: flex;
+   flex-direction: column;
+   }   
+
+}

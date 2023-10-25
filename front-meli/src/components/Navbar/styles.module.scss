@@ -1,0 +1,27 @@
+@import '../../sass/variables';
+
+.navbar {
+ background-color: $yellow;   
+ padding: 2em 8em;
+ input {
+    width: 95%;
+    height: 40px;
+    border: none;
+    text-align: left !important;
+    padding: 10px;
+ }
+ button {
+ padding: 12px;   
+ border: none;
+ }
+
+ @media (max-width: 768px)  {
+    padding: 1em;   
+    justify-content: center;
+    input {
+    width: auto;    
+    }
+    
+   }   
+
+}
